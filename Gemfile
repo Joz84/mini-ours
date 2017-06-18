@@ -17,6 +17,9 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 
+gem "simple_token_authentication"
+gem 'pundit'
+
 group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
