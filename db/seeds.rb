@@ -1,4 +1,8 @@
+User.destroy_all
 Inscription.destroy_all
+
+User.create(email: "admin@barchen.com", password: "azerty")
+puts User.first
 
 validations = ["validation interne", "validation externe", "double echelle"]
 quiz_types = ["QCM", "Questions ouvertes", "Questions fermées", "Questions refractaires"]
